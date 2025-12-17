@@ -1,5 +1,5 @@
 {
-    "name": "asmit/resized-column",
+    "name": "adultdate/resized-column",
     "description": "Resizeable column for filament",
     "type": "library",
     "license": "MIT",
@@ -10,8 +10,8 @@
     },
     "authors": [
         {
-            "name": "AsmitNepali",
-            "email": "mail2asmitnepali@gmail.com"
+            "name": "adultdate",
+            "email": "adultdate@gmail.com"
         }
     ],
     "minimum-stability": "dev",
