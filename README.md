@@ -2,7 +2,7 @@
 
 The **Resizable Columns** plugin allows you to resize table columns in Filament with persistent width settings. This package provides a seamless way to customize table layouts by letting users adjust column widths according to their preferences.
 
-![Resized Column](https://raw.githubusercontent.com/AsmitNepali/resized-column/refs/heads/main/images/cover.jpg)
+![Resized Column](https://raw.githubusercontent.com/AsmitNepali/filament-resized-column/refs/heads/main/images/cover.jpg)
 
 ## Features
 - Drag-to-resize column functionality
@@ -16,7 +16,7 @@ The **Resizable Columns** plugin allows you to resize table columns in Filament 
 You can install the package via composer:
 
 ```bash
-composer require asmit/resized-column
+composer require adultdate/filament-resized-column
 ```
 
 ## Registering the Plugin
@@ -45,7 +45,7 @@ php artisan filament:assets
 ## Publishing Migrations
 ```bash
 # Publish migrations
-php artisan vendor:publish --provider="Asmit\ResizedColumn\ResizedColumnServiceProvider" --tag=resized-column-migrations
+php artisan vendor:publish --provider="Asmit\ResizedColumn\ResizedColumnServiceProvider" --tag=filament-resized-column-migrations
 
 # Run migrations
 php artisan migrate
@@ -136,12 +136,12 @@ If the resize handles are not displaying correctly:
 2. Clear your browser cache or try a hard refresh (Ctrl+F5)
 
 ## Credits
-- [Asmit Nepal][link-asmit]
+- [Asmit Nepal][link-adultdate]
 - [Kishan Sunar][link-kishan]
 
 ### Security
 
-If you discover a security vulnerability within this package, please send an e-mail to asmitnepali99@gmail.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to adultdatenepali99@gmail.com. All security vulnerabilities will be promptly addressed.
 
 ## Contributing
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
@@ -149,5 +149,5 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 ### 📄 License
 The MIT License (MIT). Please see [License File](LICENSE.txt) for more information.
 
-[link-asmit]: https://github.com/AsmitNepali
+[link-adultdate]: https://github.com/AsmitNepali
 [link-kishan]: https://github.com/Kishan-Sunar
